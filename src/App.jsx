@@ -4,7 +4,7 @@ import { currencyConverter } from "./api/postApi";
 
 
 const App = () => {
-  const [amount, setAmount] = useState(0); 
+  const [amount, setAmount] = useState(); 
   const [fromCurrency, setFromCurrency] = useState("USD"); 
   const [toCurrency, setToCurrency] = useState("INR"); 
   const [convertedAmount, setConvertedAmount] = useState(null); 
