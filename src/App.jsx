@@ -29,7 +29,7 @@ const App = () => {
   return (
     <section className="currency-converter">
       <div className="currency-div">
-        <h1>Currency Converter</h1>
+        <h2>Currency Converter</h2>
         <div>
           <label htmlFor="currency_amount">
             Amount:
